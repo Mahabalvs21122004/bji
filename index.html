@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WELCOME TO NATIONAL PUBLIC SCHOOL</title>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        .container
+        {
+            width:100%;
+            margin:30px;
+            
+        }
+     .left
+     {
+        float:left;
+        background-color: seagreen;
+     }
+     .right
+     {
+        float:right;
+        background-color: seagreen;
+     }
+     .card
+     {
+        width:45%;
+        background-color: seagreen;
+        padding:20px;
+     }
+     .container::after{
+content:"";
+display:block;
+clear:both;
+}
+
+     @media (max-width:481px)
+     {
+        .card{
+            width:100%;
+            float:none;
+        }
+            
+        h1
+        {
+            text-align:justify;
+            width:100%;
+            font-size: 30px;
+        }
+        
+     }
+     
+    </style>
+    <body>
+        <div class="container">
+            <div class="card left">
+                <img src=""
+                <h1>ABOUT US</h1>
+                <p>WE HAVE 10 BRANCHES IN BENGALURU AND WE STRIVE TO PROVIDE QUALITY EDUCATION TO OUR FUTURE GENERATION.</p>
+                <button>CHECK LOCATIONS</button>
+            </div>
+            <div class="card right">
+                <h1>OUR ACHIVEMENTS</h1>
+                <ul>
+                    <li>1st position in talentia -2023</li>
+                    <li>2nd place in interschool swimming competition</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
